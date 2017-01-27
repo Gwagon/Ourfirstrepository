@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumber.WEG.RunnerClass" time="35.985" tests="57" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
+    <property name="java.vm.version" value="25.65-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Godswill\.jenkins\workspace\WEG"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Godswill\.jenkins\workspace\WEG"/>
+    <property name="java.runtime.version" value="1.8.0_65-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Godswill\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache Software Foundation\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_65\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Apache Software Foundation\apache-maven-3.3.9-bin\apache-maven-3.3.9/bin;C:\Program Files\Java\jdk1.8.0_65/bin;C:\Program Files\Java\jdk1.8.0_65/bin;C:\Program Files\Chrome_Driver;C:\Program Files\IE_Driver;C:\phantomjs\phantomjs-2.0.0-windows\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Java\jre1.8.0_66\bin;C:\Program Files\Broadcom\Broadcom 802.11;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files (x86)\Skype\Phone\;%M2_HOME%\bin;C:\apache-jmeter-3.1\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_65;C:\apache-jmeter-3.1\bin;C:\Program Files\Java\jre1.8.0_111\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Godswill"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Godswill"/>
+    <property name="java.class.path" value="C:\Program Files\Apache Software Foundation\apache-maven-3.3.9-bin\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_65\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f C:\Users\Godswill\workspace\WEG clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_65"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Apache Software Foundation\apache-maven-3.3.9-bin\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given I launch the url" classname="| Homepage |" time="0.003"/>
+  <testcase name="Then I click on &quot;Homepage&quot; tabs" classname="| Homepage |" time="0"/>
+  <testcase name="| Homepage |" classname="| Homepage |" time="0.001"/>
+  <testcase name="Given I launch the url" classname="| Trade your jet |" time="0"/>
+  <testcase name="Then I click on &quot;Trade your jet&quot; tabs" classname="| Trade your jet |" time="0"/>
+  <testcase name="| Trade your jet |" classname="| Trade your jet |" time="0.003"/>
+  <testcase name="Given I launch the url" classname="| Book your jet |" time="0"/>
+  <testcase name="Then I click on &quot;Book your jet&quot; tabs" classname="| Book your jet |" time="0"/>
+  <testcase name="| Book your jet |" classname="| Book your jet |" time="0"/>
+  <testcase name="Given I launch the url" classname="| Just Trade |" time="0"/>
+  <testcase name="Then I click on &quot;Just Trade&quot; tabs" classname="| Just Trade |" time="0.002"/>
+  <testcase name="| Just Trade |" classname="| Just Trade |" time="0.002"/>
+  <testcase name="Given I launch the url" classname="| About Us |" time="0"/>
+  <testcase name="Then I click on &quot;About Us&quot; tabs" classname="| About Us |" time="0"/>
+  <testcase name="| About Us |" classname="| About Us |" time="0.002"/>
+  <testcase name="Given I launch the url" classname="| Contact Support |" time="0"/>
+  <testcase name="Then I click on &quot;Contact Support&quot; tabs" classname="| Contact Support |" time="0"/>
+  <testcase name="| Contact Support |" classname="| Contact Support |" time="0.005"/>
+  <testcase name="Given I launch the url" classname="Scenario: HomePage displayed" time="0"/>
+  <testcase name="Given I launch the url" classname="Scenario: HomePage displayed" time="0"/>
+  <testcase name="Then the &quot;Home&quot; is displayed" classname="Scenario: HomePage displayed" time="0"/>
+  <testcase name="Scenario: HomePage displayed" classname="Scenario: HomePage displayed" time="0.011"/>
+  <testcase name="Scenario: HomePage displayed" classname="Scenario: HomePage displayed" time="0.001"/>
+  <testcase name="And the &quot;Home&quot; is displayed" classname="Scenario: HomePage displayed" time="0"/>
+  <testcase name="When I click on &quot;all the&quot; tabs" classname="Scenario: HomePage displayed" time="0"/>
+  <testcase name="Then the &quot;ContactPage&quot; is displayed" classname="Scenario: HomePage displayed" time="0"/>
+  <testcase name="Given I launch the url" classname="| Enteryourfirstname |" time="0"/>
+  <testcase name="And the &quot;Home&quot; is displayed" classname="| Enteryourfirstname |" time="0"/>
+  <testcase name="When I click on &quot;Just Trade&quot; tabs" classname="| Enteryourfirstname |" time="0"/>
+  <testcase name="And &quot;Firstname&quot; text field is displayed" classname="| Enteryourfirstname |" time="0"/>
+  <testcase name="Then the &quot;Enteryourfirstname&quot; is displayed" classname="| Enteryourfirstname |" time="0"/>
+  <testcase name="| Enteryourfirstname |" classname="| Enteryourfirstname |" time="0"/>
+  <testcase name="Given I launch the url" classname="| Pagetext_Offer |" time="0"/>
+  <testcase name="And the &quot;Home&quot; is displayed" classname="| Pagetext_Offer |" time="0"/>
+  <testcase name="When I click on &quot;Just Trade&quot; tabs" classname="| Pagetext_Offer |" time="0"/>
+  <testcase name="And &quot;Firstname&quot; text field is displayed" classname="| Pagetext_Offer |" time="0"/>
+  <testcase name="Then the &quot;Pagetext_Offer&quot; is displayed" classname="| Pagetext_Offer |" time="0"/>
+  <testcase name="| Pagetext_Offer |" classname="| Pagetext_Offer |" time="0"/>
+  <testcase name="Given I launch the url" classname="Scenario: Trade your jet form" time="0"/>
+  <testcase name="And the &quot;Home&quot; page is displayed" classname="Scenario: Trade your jet form" time="0"/>
+  <testcase name="When I click on &quot;Trade your jet&quot; tabs" classname="Scenario: Trade your jet form" time="0"/>
+  <testcase name="Then the &quot;Trade your jet&quot; page is displayed" classname="Scenario: Trade your jet form" time="0.001"/>
+  <testcase name="Given I enter &quot;2m_Current_jet_price_text&quot; in the text field" classname="Scenario: Trade your jet form" time="0"/>
+  <testcase name="And I enter &quot;15m_Purchase_price_text&quot; in the text field" classname="Scenario: Trade your jet form" time="0"/>
+  <testcase name="And I enter &quot;120000h_Flight_time&quot; in the text field" classname="Scenario: Trade your jet form" time="0"/>
+  <testcase name="When I click on &quot;Range&quot; Radio button" classname="Scenario: Trade your jet form" time="0"/>
+  <testcase name="When I click on &quot;Take off time&quot; Radio button" classname="Scenario: Trade your jet form" time="0"/>
+  <testcase name="Scenario: Trade your jet form" classname="Scenario: Trade your jet form" time="0.001"/>
+  <testcase name="Given I launch the url" classname="Scenario: Book your jet form" time="0"/>
+  <testcase name="And the &quot;Home&quot; page is displayed" classname="Scenario: Book your jet form" time="0"/>
+  <testcase name="When I click on &quot;Bookyourjet&quot; tabs" classname="Scenario: Book your jet form" time="0"/>
+  <testcase name="Then the &quot;BookYourJet&quot; page is displayed" classname="Scenario: Book your jet form" time="0"/>
+  <testcase name="Given I enter &quot;start destination&quot; in the text field" classname="Scenario: Book your jet form" time="0"/>
+  <testcase name="And I enter &quot;end destination&quot; in the text field" classname="Scenario: Book your jet form" time="0"/>
+  <testcase name="When I select &quot;US&quot; from the select zone dropdown" classname="Scenario: Book your jet form" time="0"/>
+  <testcase name="Then I check &quot;family&quot; checkbox" classname="Scenario: Book your jet form" time="0"/>
+  <testcase name="Scenario: Book your jet form" classname="Scenario: Book your jet form" time="0.001"/>
+</testsuite>
