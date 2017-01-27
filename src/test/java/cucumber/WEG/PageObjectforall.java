@@ -135,7 +135,7 @@ public class PageObjectforall extends Driverforall implements page_homepage {
 		 * driver.findElement(By.id(FIRSTNAME)).sendKeys(Integer.toString(day));
 		 **/
 	}
-
+/*
 	public void takescreenshot(String screenshot) {
 		try {
 			TakesScreenshot capture = (TakesScreenshot) driver;
@@ -155,6 +155,7 @@ public class PageObjectforall extends Driverforall implements page_homepage {
 			}
 			
 		}
+		*/
 	}
 
 
